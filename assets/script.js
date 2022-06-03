@@ -21,7 +21,7 @@ function listCard(){
                     </div>
                     <div class="card bg-light-blue p-2">
                         <div class="card-body">
-                            <div class="d-flex align-items-center justify-content-between">
+                            <div class="card-header-css d-flex align-items-center justify-content-between">
                                 <b class="card-title m-0">${item.title}</b>
                                 <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
                                     <path

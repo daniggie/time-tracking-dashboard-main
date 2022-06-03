@@ -18,13 +18,15 @@
 }
 body {
     width: 100%;
+    min-height: 100vh;
     margin: 0;
     background-color: var(--very-dark-blue) !important;
 }
 main {
     min-width: 100%;
+    min-height: 90vh;
     background-color: var(--very-dark-blue);
-    margin: 50px 0 5rem 0;
+    padding: 50px 0 0 0;
 }
 #cardinfo{
     width: 100% !important;
@@ -57,7 +59,7 @@ main {
 h6 {
     color: var(--pale-blue) !important;
 }
-h6, h1, .card h1{
+h6, h1{
     font-weight: 300 !important;
 }
 h1, h2, h3, h4, h5, b {
@@ -71,9 +73,6 @@ small {
     font-size: 0.825em !important;
 }
 h1 {
-    margin-top: 50px !important;
-}
-.card h1 {
     font-size: xx-large;
 }
 button {
@@ -102,7 +101,11 @@ button:hover {
 }
 .container-card {
     overflow: hidden;
-    width: calc(95%/3) !important;
+    width: calc(90%/3) !important;
+}
+
+.card-header-css{
+    margin-bottom: 30px;
 }
 .card-logo{
     height: 45px;
@@ -131,6 +134,10 @@ svg{
 }
 svg:hover{
     fill: #fff;
+}
+.person-info-title{
+    display: flex;
+    flex-direction: column;    
 }
 @media (max-width: 767px) {
     .row{
